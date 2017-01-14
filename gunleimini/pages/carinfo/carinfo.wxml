@@ -1,0 +1,6 @@
+<view class="container">
+<view class="shopname" bindtap="goWarehouse">
+    <text class="shop-name">{{shop_id}}</text>
+    <text class="car-name">{{car_id}}</text>
+  </view>
+</view>

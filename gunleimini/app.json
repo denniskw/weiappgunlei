@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/warehouse/warehouse",
+    "pages/carinfo/carinfo",
+    "pages/living/living",
+    "pages/sourcecars/sourcecars",
+    "pages/finance/finance"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

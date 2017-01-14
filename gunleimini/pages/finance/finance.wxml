@@ -1,0 +1,21 @@
+<view>
+  <text>滚雷金融贷款服务优势</text>
+  <view>
+    <image mode='scaleToFill' src="{{youshiUrl}}"></image>
+  </view>
+
+
+<block wx:for="{{infoArray}}" >
+<view>
+  <!--图片-->
+    <image mode='widthFix' src="{{item.url}}"></image>
+  </view>
+  <!--黑字标题-->
+  <text>{{item.title}}</text>
+  <!--内容-->
+  <view>
+    <text>{{item.content}}</text>
+    </view>
+</block>
+
+</view>

@@ -1,0 +1,17 @@
+<view class="container s-container">
+    <view class="carItem" bindtap="toCarInfo" wx:for="{{objectArray}}" wx:key="car_amount" style="display: block;"> 
+    <navigator url="../carinfo/carinfo?car_id={{item.model_name}}">
+    <view class="w100">
+        <text class="modelName">{{item.model_name}}</text>
+        <text class="price">{{item.price}}</text>
+    </view>
+    <view style="margin:8px 0 6px;" class="w100">
+        <text class="source_region">{{item.source_region}}</text>
+        <text class="color">{{item.ex_color}}/{{item.in_color}}          </text>
+        <text class="remark">{{item.remark}}</text>
+    </view >   
+        <text class="param_item">配置: {{item.param_item}}</text>
+
+      </navigator>
+     </view>
+</view>

@@ -1,0 +1,34 @@
+
+.container{
+    background-color:#f6f6f6;
+}
+
+.foreign_house1 {
+  width: 100%;
+  padding: 0 0;
+}
+
+.text_word {
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 15px;
+}
+
+/*.cangchuimg {
+  display: inline-block;
+  width: 100%;
+  padding: 0rpx;
+  margin: 0rpx;
+  overflow: hidden;
+}*/
+
+.videoclass {
+    width: 90%;
+  margin-bottom: 60rpx;
+  margin-left: 5%;
+  margin-right:5%;
+}
+.wuliu_item{
+  width: 50%;
+  text-align: center;
+}

@@ -1,0 +1,51 @@
+
+.carItem {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin:10rpx 10rpx 10rpx 10rpx;
+  padding: 17rpx 15rpx 15rpx 15rpx;
+  background: #ffffff;
+  box-sizing: border-box;
+} 
+
+.modelName{
+  font-size: 28rpx;
+  color:#000;
+  float: left;
+}
+.w100{width:100%;height:auto;overflow:hidden;}
+.price{
+  font-size: 34rpx;
+  color:#ca1e1e;
+  float: right;
+}
+.source_region{
+   font-size: 24rpx;
+  color:#64696f;
+  font-weight:bold;
+  margin-right:28rpx;
+  float: left;
+}
+.color{
+  font-size: 24rpx;
+  color:#64696f;
+  font-weight:bold;
+  float: left;
+}
+.remark{
+ padding:2px 8px 1px;
+  font-size: 24rpx;
+  color:#fff;
+  background-color: #a5b6d2;
+  float: right;
+  text-align: center;
+}
+.param_item{
+  font-size:24rpx;
+  color:#64696f;
+  line-height: 26rpx;
+}

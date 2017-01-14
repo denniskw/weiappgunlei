@@ -1,0 +1,49 @@
+<view class="container">
+  <view class="foreign_house1">
+    <image mode="widthFix" width="100%" src="{{bannerUrl}}"></image>
+  </view>
+  <text>免费仓储</text>
+  <view class="text_word">
+    <text>滚雷进口车自建海外仓储物流系统\n</text>
+    <text>仓库配备闭路视频监控，防盗报警系统和火警监控系统\n</text>
+    <text>并向国内客户提供车辆实时直播服务</text>
+  </view>
+  <view class="cangchuimg">
+    <image mode='widthFix' width="100%" src="{{carUrl}}"></image>
+    <image mode='widthFix' src="{{carUrl2}}"></image>
+  </view>
+  <text>物流服务</text>
+  <view>
+
+    <!--物流服务图片-->
+    <image mode='widthFix' src="{{wuliuUrl}}"></image>
+    <video class="videoclass" src="{{wuliuVideoUrl}}"></video>
+  </view>
+  <text>一站式物流</text>
+
+  <!--六张图片-->
+<block wx:for="{{wuliuArray}}">
+  <view class="wuliu_item">
+      <image  src="{{item}}"></image>
+  </view>
+
+  
+</block>
+  <!--对比图-->
+  <image mode='widthFix' src="{{wuliuVsUrl}}"></image>
+  <image mode='widthFix' src="{{wuliuVsUrl2}}"></image>
+  <image mode='widthFix' src="{{wuliuVsUrl3}}"></image>
+  <text>物流实拍图</text>
+  <text>免费仓储</text>
+  <text>滚雷在海外自建仓储物流系统\n免费提供安全的现代化仓库</text>
+  <image mode='widthFix' src="{{shipaiUrl}}"></image>
+  <text>车辆入库</text>
+  <text>丰富的车辆运输经验\n保证车辆不会出现任何的损伤</text>
+  <image mode='widthFix' src="{{rukuUrl}}"></image>
+  <text>车辆装箱</text>
+  <text>高效稳定的车辆出库\n装箱服务 , 确保您的车辆能够最快抵达国内</text>
+  <image mode='widthFix' src="{{zhuangxiangUrl}}"></image>
+  <text>海运</text>
+  <text>长期稳定的海运合作伙伴\n根据您的要求 , 为您量身定制最合适的运输方案</text>
+  <image mode='widthFix' src="{{haiyunUrl}}"></image>
+</view>

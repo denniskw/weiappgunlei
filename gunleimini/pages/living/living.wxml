@@ -1,0 +1,30 @@
+<view>
+  <view>
+    <image mode='scaleToFill' src="{{wlzb_bannerUrl}}"></image>
+  </view>
+  <view>
+    <video src="{{livingVideoUrl}}"></video>
+  </view>
+  <view>
+    <image mode='scaleToFill' src="{{locationUrl}}"></image>
+  </view>
+  <text>可视化物流系统\n</text>
+  <text>滚雷进口车是首家在海外拥有大型的现代化仓库，\n并且利用移动互联网技术，对车辆实现智能化\n管理的平行进口车采销平台。</text>
+  <text>
+    您对车辆下单后，几天之内即可通过滚雷物流直播\n平台实时查看到自己的车辆，以及车辆出库、海运\n 的最新车辆状态，并还可以分享给您的客户。
+  </text>
+  <view>
+    <video src="{{livingVideoUrl2}}"></video>
+  </view>
+
+
+  
+  <block wx:for="{{itemArray}}">
+    <text>{{item.title}}</text>
+    <view wx:for="{{item.urls}}" wx:for-item="itemName">
+      <view>
+        <image mode='scaleToFill' src="{{itemName.url}}"></image>
+      </view>
+    </view>
+  </block>
+</view>
