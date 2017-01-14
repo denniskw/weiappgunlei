@@ -14,7 +14,7 @@ gunleiImage:'https://image.gunlei.com/miniApp/index-banner.jpg',
     var imageSize = imageUtil.imageUtil(e)  
     this.setData({  
       imagewidth: imageSize.imageWidth,  
-      imageheight: imageSize.imageHeight  
+      imageheight: imageSize.imageHeight,  
     })  
   }  
 })

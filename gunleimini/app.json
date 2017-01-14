@@ -1,14 +1,13 @@
 {
   "pages":[
-    "pages/test/test",
     "pages/index/index",
     "pages/logs/logs",
     "pages/warehouse/warehouse",
     "pages/carinfo/carinfo",
     "pages/living/living",
     "pages/sourcecars/sourcecars",
-    "pages/finance/finance"
-    
+    "pages/finance/finance",
+    "pages/test/test"
   ],
   "window":{
     "backgroundTextStyle":"light",
