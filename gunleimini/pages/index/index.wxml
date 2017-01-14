@@ -4,4 +4,30 @@
       <image class="gunleiImages" src="{{gunleiImage}}"                style="width: {{imagewidth}}px; height: {{imageheight}}px;       " bindload="imageLoad"></image>
       <text class="gunleiText">来自海外 专注十年</text>
   </view>
+  <view class="gunleiIcon">
+    <view bindtap="goSourceCars" class="iconitems">
+      <image src="{{iconImage01}}"></image>
+      <text>每日报价</text>
+    </view>
+    <view bindtap="goWarehouse" class="iconitems">
+      <image src="{{iconImage02}}"></image>
+      <text>海外仓库</text>
+    </view>
+    <view bindtap="goLiving" class="iconitems">
+      <image src="{{iconImage03}}"></image>
+      <text>物流直播</text>
+    </view>
+    <view bindtap="goFinance" class="iconitems">
+      <image src="{{iconImage04}}"></image>
+      <text>滚雷金融</text>
+    </view>
+  </view>
+  <view>
+     <image src="{{carTitle}}"  style="width: {{imagewidth}}px;       height: 96rpx;" bindload="imageLoad"></image>
+    <block wx:for="{{carImage}}">
+    <navigator url="../carinfo/carinfo?car_id=16款车辆">
+     <image class="mbot20" src="{{item}}"  style="width: {{imagewidth}}px; height: {{imageheight}}px;" bindload="imageLoad"></image>
+     </navigator>
+  </block>   
+  </view>
 </view>  
